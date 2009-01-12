@@ -24,7 +24,7 @@ Summary: Documentations for anyRemote
 Group: System/Kernel and hardware
 Conflicts: %{name} < 4.14
 
-%description
+%description doc
 Documentation for anyRemote. 
 
 %prep
