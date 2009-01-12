@@ -17,7 +17,15 @@ URL: http://anyremote.sourceforge.net/
 The overall goal of this project is to provide remote control service on Linux 
 through Bluetooth, InfraRed, Wi-Fi or TCP/IP connection.
 anyRemote supports wide range of modern cell phones like Nokia, SonyEricsson, 
-Motorola and others. 
+Motorola and others.
+
+%package doc
+Summary: Documentations for anyRemote
+Group: System/Kernel and hardware
+Conflicts: %{name} < 4.14
+
+%description
+Documentation for anyRemote. 
 
 %prep
 %setup -q
@@ -39,7 +47,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc NEWS README AUTHORS
-%doc doc-html
 %{_bindir}/%name
 %{_datadir}/%name
 %{_mandir}/man1/%name.*
+
+%files doc
+%defattr(-,root,root)
+%doc doc-html/*
