@@ -9,6 +9,7 @@ Release: %{release}
 License: GPLv2+
 Group: System/Kernel and hardware
 BuildRequires: bluez-devel libxtst-devel
+BuildRequires: dbus-glib-devel
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source0: http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
 URL: http://anyremote.sourceforge.net/
