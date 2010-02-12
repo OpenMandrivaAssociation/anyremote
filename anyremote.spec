@@ -1,18 +1,18 @@
-%define name anyremote
-%define version 5.1
-%define release %mkrel 1
+%define	name	anyremote
+%define	version	5.1.1
+%define	release	%mkrel 1
 
-Summary: Remote control through bluetooth or IR connection
-Name: %{name}
-Version: %{version}
-Release: %{release}
-License: GPLv2+
-Group: System/Kernel and hardware
-BuildRequires: bluez-devel libxtst-devel
-BuildRequires: dbus-glib-devel
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Source0: http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
-URL: http://anyremote.sourceforge.net/
+Summary:	Remote control through bluetooth or IR connection
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+License:	GPLv2+
+Group:		System/Kernel and hardware
+BuildRequires:	bluez-devel libxtst-devel
+BuildRequires:	dbus-glib-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
+URL:		http://anyremote.sourceforge.net/
 
 %description
 The overall goal of this project is to provide remote control service on Linux 
