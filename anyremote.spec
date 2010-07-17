@@ -1,5 +1,5 @@
 %define	name	anyremote
-%define	version	5.1.1
+%define	version	5.1.3
 %define	release	%mkrel 1
 
 Summary:	Remote control through bluetooth or IR connection
