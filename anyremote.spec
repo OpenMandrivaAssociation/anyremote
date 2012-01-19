@@ -12,6 +12,7 @@ BuildRequires:	libbluez-devel
 BuildRequires:	dbus-devel
 BuildRequires:	dbus-glib-devel
 BuildRequires:	pkgconfig(xtst)
+BuildRequires:  pkgconfig(xi)
 Suggests:	kanyremote
 Suggests:	anyremote2html
 
