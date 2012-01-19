@@ -10,8 +10,8 @@ Requires:	bluez
 Requires:	irda-utils
 BuildRequires:	libxtst-devel
 BuildRequires:	libbluez-devel
-BuildRequires:	libdbus-devel
-BuildRequires:	libdbus-glib-devel
+BuildRequires:	dbus-devel
+BuildRequires:	dbus-glib-devel
 Suggests:	kanyremote
 Suggests:	anyremote2html
 
