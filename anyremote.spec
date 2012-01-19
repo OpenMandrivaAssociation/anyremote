@@ -8,7 +8,6 @@ URL:		http://anyremote.sourceforge.net/
 Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
 Requires:	bluez
 Requires:	irda-utils
-BuildRequires:	%mklibname xtst -d
 BuildRequires:	libbluez-devel
 BuildRequires:	dbus-devel
 BuildRequires:	dbus-glib-devel
