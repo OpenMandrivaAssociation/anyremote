@@ -1,18 +1,20 @@
-Name:		anyremote
-Version:	6.0
-Release:	1
-Summary:	Remote control through bluetooth or IR connection
-License:	GPLv2+
+Name:	anyremote
+Version:		6.1.1
+Release:		1
+Summary:		Remote control through bluetooth or IR connection
+License:		GPLv2+
 Group:		System/Kernel and hardware
 URL:		http://anyremote.sourceforge.net/
-Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
-Requires:	bluez
-Requires:	irda-utils
+Source0:		http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
+
 BuildRequires:	pkgconfig(bluez)
-BuildRequires:	dbus-devel
-BuildRequires:	dbus-glib-devel
+BuildRequires:	pkgconfig(dbus-1)
+BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(xtst)
 BuildRequires:  pkgconfig(xi)
+
+Requires:	bluez
+Requires:	irda-utils
 Suggests:	kanyremote
 Suggests:	anyremote2html
 
@@ -63,6 +65,7 @@ Documentation for anyRemote.
 
 # we'll cp our own doc files
 %__rm -rf %{buildroot}%{_datadir}/doc
+
 
 %files
 %doc NEWS README AUTHORS
