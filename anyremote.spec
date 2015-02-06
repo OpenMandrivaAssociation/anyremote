@@ -1,6 +1,6 @@
 Name:		anyremote
 Version:	6.2
-Release:	1
+Release:	2
 Summary:	Remote control through bluetooth or IR connection
 License:	GPLv2+
 Group:		System/Kernel and hardware
