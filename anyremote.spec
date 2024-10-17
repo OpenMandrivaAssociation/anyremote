@@ -4,7 +4,7 @@ Release:	1
 Summary:	Remote control through bluetooth or IR connection
 License:	GPLv2+
 Group:		System/Kernel and hardware
-URL:		http://anyremote.sourceforge.net/
+URL:		https://anyremote.sourceforge.net/
 Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(bluez)
