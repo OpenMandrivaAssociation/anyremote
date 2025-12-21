@@ -7,6 +7,11 @@ Group:		System/Kernel and hardware
 URL:		https://anyremote.sourceforge.net/
 Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(bluez)
 BuildRequires:	pkgconfig(dbus-1)
 BuildRequires:	pkgconfig(dbus-glib-1)
